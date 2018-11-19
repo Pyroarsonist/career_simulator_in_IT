@@ -21,3 +21,7 @@ Human::Human(string _name, string _surname, int _age): name(_name) , surname(_su
 string Human::getName() { return name; }
 string Human::getSurname() { return surname; }
 int Human::getAge() { return age; }
+
+void Human::setName(string _name) { name = _name; }
+void Human::setSurname(string _surname) { surname = _surname; }
+void Human::setAge(int _age) { age = _age; }
