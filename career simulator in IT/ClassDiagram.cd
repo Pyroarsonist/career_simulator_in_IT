@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Human">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAQAAAAAAEAAAAAEAEAAAAAABAAAQAAAA=</HashCode>
+      <FileName>Human.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Programmer">
+    <Position X="9.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAIAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Programmer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backender">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Backender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevOps">
+    <Position X="11.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>DevOps.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontender">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Frontender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HR">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="Humanist" ManuallyRouted="true">
+      <Path>
+        <Point X="3.25" Y="3.175" />
+        <Point X="3.25" Y="3.604" />
+        <Point X="2.74" Y="3.604" />
+        <Point X="2.74" Y="3.906" />
+        <Point X="1.25" Y="3.906" />
+        <Point X="1.25" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAQAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HR.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Humanist">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Humanist.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectManager">
+    <Position X="2.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAIAAAAAAAAA=</HashCode>
+      <FileName>ProjectManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TechinicalWriter">
+    <Position X="5" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="Humanist" ManuallyRouted="true">
+      <Path>
+        <Point X="3.25" Y="3.175" />
+        <Point X="3.25" Y="3.656" />
+        <Point X="4.594" Y="3.656" />
+        <Point X="4.594" Y="4.125" />
+        <Point X="5.75" Y="4.125" />
+        <Point X="5.75" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAECAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TechinicalWriter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
