@@ -14,6 +14,8 @@ public:
 	void setName(string _name);
 	void setSurname(string _surname);
 	void setAge(int _age);
+	bool hasSurname();
+	void sayWord();
 private:
 	string name, surname;
 	int age;

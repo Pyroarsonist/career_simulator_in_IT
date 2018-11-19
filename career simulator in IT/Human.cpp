@@ -13,7 +13,7 @@ Human::~Human()
 }
 
 
-Human::Human(string _name, string _surname, int _age): name(_name) , surname(_surname), age(_age)
+Human::Human(string _name, string _surname, int _age) : name(_name), surname(_surname), age(_age)
 {
 	predisposition = false;
 }
@@ -25,3 +25,5 @@ int Human::getAge() { return age; }
 void Human::setName(string _name) { name = _name; }
 void Human::setSurname(string _surname) { surname = _surname; }
 void Human::setAge(int _age) { age = _age; }
+bool Human::hasSurname() { return !surname.empty(); }
+void Human::sayWord() { cout << "Word" << endl; }
