@@ -1,6 +1,9 @@
 #pragma once
 #include <string>
 #include <iostream>
+#include <ctime>
+#include <chrono>
+
 using namespace std;
 class Human
 {
@@ -16,11 +19,14 @@ public:
 	void setAge(int _age);
 	bool hasSurname();
 	void sayWord();
+	void getTime();
 private:
+	void updateTime();
 	string name, surname;
 	int age;
 	bool predisposition;
 	string rank;
 	int experience;
+	string updated_at;
 };
 
