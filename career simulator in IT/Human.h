@@ -7,7 +7,10 @@
 using namespace std;
 class Human
 {
+	const string favourite_university;
+
 public:
+	static int human_count;
 	Human();
 	~Human();
 	Human(string name, string surname, int age);
@@ -20,6 +23,7 @@ public:
 	bool hasSurname();
 	void sayWord();
 	void getTime();
+	void fullInfo() ;
 private:
 	void updateTime();
 	string name, surname;

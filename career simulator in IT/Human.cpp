@@ -3,22 +3,24 @@
 
 
 
-Human::Human()
+Human::Human() : favourite_university("kpi")
 {
 	updateTime();
+	human_count++;
 }
 
 
 
-Human::~Human()
+Human::~Human() 
 {
 }
 
 
-Human::Human(string _name, string _surname, int _age) : name(_name), surname(_surname), age(_age)
+Human::Human(string _name, string _surname, int _age) : name(_name), surname(_surname), age(_age), favourite_university("KPI")
 {
 	updateTime();
 	predisposition = false;
+	human_count++;
 }
 
 string Human::getName() { return name; }
