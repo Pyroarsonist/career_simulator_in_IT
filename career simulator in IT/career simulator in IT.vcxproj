@@ -161,12 +161,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Backender.cpp" />
-    <ClCompile Include="career simulator in IT.cpp" />
     <ClCompile Include="DevOps.cpp" />
     <ClCompile Include="Frontender.cpp" />
     <ClCompile Include="HR.cpp" />
     <ClCompile Include="Human.cpp" />
     <ClCompile Include="Humanist.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Programmer.cpp" />
     <ClCompile Include="ProjectManager.cpp" />
     <ClCompile Include="stdafx.cpp">

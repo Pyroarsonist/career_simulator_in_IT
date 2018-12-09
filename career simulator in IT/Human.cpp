@@ -42,3 +42,19 @@ void Human::updateTime() {
 	nowLocal = *localtime(&now);
 	updated_at = to_string(nowLocal.tm_mday) + "/" + to_string(nowLocal.tm_mon + 1) + "/" + to_string(nowLocal.tm_year + 1900) + " " + to_string(nowLocal.tm_hour) + ":" + to_string(nowLocal.tm_min) + ":" + to_string(nowLocal.tm_sec);
 }
+
+void mutateHuman(Human h) {
+	cout << "[BEFORE] Name: " << h.name << " ,surname: " << h.surname << " ,age: " << h.age << endl;
+	h.age = -1;
+	h.name = "default_name";
+	h.surname = "default_surname";
+	cout << "[AFTER] Name: " << h.name << " ,surname: " << h.surname << " ,age: " << h.age << endl;
+}
+
+void Human::operator + (int diff_age)
+{
+	this->age+=diff_age;
+	//h.setAge(h.getAge()+1);
+	//return h;
+	//return Human(this->name,this->surname,this->age+1);
+}

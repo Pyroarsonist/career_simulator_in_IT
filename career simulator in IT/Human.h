@@ -23,7 +23,8 @@ public:
 	bool hasSurname();
 	void sayWord();
 	void getTime();
-	void fullInfo() ;
+	friend void mutateHuman(Human h);
+	void operator +(int diff_age);
 private:
 	void updateTime();
 	string name, surname;
