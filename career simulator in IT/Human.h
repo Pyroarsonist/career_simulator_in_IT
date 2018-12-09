@@ -25,6 +25,7 @@ public:
 	void getTime();
 	friend void mutateHuman(Human h);
 	void operator +(int diff_age);
+	virtual void whoAmI();
 private:
 	void updateTime();
 	string name, surname;

@@ -58,3 +58,7 @@ void Human::operator + (int diff_age)
 	//return h;
 	//return Human(this->name,this->surname,this->age+1);
 }
+
+void Human::whoAmI() {
+	cout << "I am human\n";
+}
