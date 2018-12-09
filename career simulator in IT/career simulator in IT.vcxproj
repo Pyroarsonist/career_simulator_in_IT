@@ -153,6 +153,7 @@
     <ClInclude Include="HR.h" />
     <ClInclude Include="Human.h" />
     <ClInclude Include="Humanist.h" />
+    <ClInclude Include="Overmind.h" />
     <ClInclude Include="Programmer.h" />
     <ClInclude Include="ProjectManager.h" />
     <ClInclude Include="stdafx.h" />
@@ -167,6 +168,7 @@
     <ClCompile Include="Human.cpp" />
     <ClCompile Include="Humanist.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Overmind.cpp" />
     <ClCompile Include="Programmer.cpp" />
     <ClCompile Include="ProjectManager.cpp" />
     <ClCompile Include="stdafx.cpp">

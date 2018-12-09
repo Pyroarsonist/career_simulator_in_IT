@@ -23,9 +23,9 @@ public:
 	bool hasSurname();
 	void sayWord();
 	void getTime();
-	friend void mutateHuman(Human h);
+	//friend void mutateHuman(Human h);
 	void operator +(int diff_age);
-	virtual void whoAmI();
+	virtual void whoAmI() = 0;
 private:
 	void updateTime();
 	string name, surname;
