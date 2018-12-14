@@ -11,3 +11,15 @@ Programmer::Programmer()
 Programmer::~Programmer()
 {
 }
+
+void Programmer::whoAmI() {
+	cout << "I am programmer\n";
+}
+
+void Programmer::getProgrammerInfo() {
+	cout << "I love programming\n";
+}
+
+void Programmer::getInfo() {
+	getProgrammerInfo();
+}

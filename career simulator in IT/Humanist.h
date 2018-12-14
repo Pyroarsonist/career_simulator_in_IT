@@ -6,5 +6,7 @@ class Humanist :
 public:
 	Humanist();
 	~Humanist();
+	void getHumanistInfo();
+	void getInfo();
 };
 
